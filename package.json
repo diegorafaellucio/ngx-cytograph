@@ -1,83 +1,65 @@
 {
-  "name": "ngx-cytoscape",
-  "version": "0.5.23",
-  "scripts": {
-    "build": "gulp build",
-    "build:watch": "gulp",
-    "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ngx-cytoscape -d docs --hideGenerator",
-    "docs:serve": "npm run docs:build -- -s",
-    "docs:watch": "npm run docs:build -- -s -w",
-    "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "lite": "lite-server",
-    "playground:build": "tsc -p playground -w",
-    "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
-    "test": "tsc && karma start"
+  "_from": "ngx-cytograph",
+  "_id": "ngx-cytograph@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-EB/hcZetA1C/Yx0k184aCxamjgc=",
+  "_location": "/ngx-cytograph",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ngx-cytograph",
+    "name": "ngx-cytograph",
+    "escapedName": "ngx-cytograph",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-cytoscape/-/ngx-cytoscape-0.5.24.tgz",
+  "_shasum": "101fe17197ad0350bf631d24d7ce1a0b16a68e07",
+  "_spec": "ngx-cytograph",
+  "_where": "/home/diego/WASYS/codes/q2c-dashboard",
+  "author": {
+    "name": "Diego Rafael Lucio",
+    "email": "diegorafaellucio@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/diegorafaellucio/ngx-cytograph/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cytoscape": "^3.1.6",
+    "cytoscape": "^3.2.8"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@types/jquery": "^3.3.0"
+  },
+  "homepage": "https://github.com/diegorafaellucio/ngx-cytograph#readme",
+  "jsnext:main": "ngx-cytoscape.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "main": "ngx-cytoscape.umd.js",
+  "module": "ngx-cytoscape.js",
+  "name": "ngx-cytograph",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.0",
+    "zone.js": "^0.8.20",
+    "jquery": "^3.3.1",
+    "cytoscape": "^3.2.8",
+    "@types/cytoscape": "^3.1.6"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/calvinvette/ngx-cytoscape"
+    "url": "git+https://github.com/diegorafaellucio/ngx-cytograph.git"
   },
-  "author": {
-    "name": "Calvin Vette",
-    "email": "calvinvette@gmail.com"
-  },
-  "keywords": [
-    "angular",
-    "cytoscape"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/calvinvette/ngx-cytoscape/issues"
-  },
-  "peerDependencies": {
-    "@types/cytoscape": "^3.1.6",
-    "cytoscape": "^3.2.8",
-    "jquery": "^3.3.1"
-  },
-  "devDependencies": {
-    "@angular/common": "^5.0.0",
-    "@angular/compiler": "^5.0.0",
-    "@angular/compiler-cli": "^5.0.0",
-    "@angular/core": "^5.0.0",
-    "@angular/platform-browser": "^5.0.0",
-    "@angular/platform-browser-dynamic": "^5.0.0",
-    "@compodoc/compodoc": "^1.0.0-beta.10",
-    "@types/jasmine": "2.5.53",
-    "@types/node": "~6.0.60",
-    "@types/jquery": "^3.3.0",
-    "angular-in-memory-web-api": "^0.3.2",
-    "codelyzer": "~3.2.0",
-    "concurrently": "^3.4.0",
-    "core-js": "^2.4.1",
-    "fs-extra": "^5.0.0",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-rollup": "^2.16.2",
-    "jasmine-core": "~2.6.2",
-    "jasmine-spec-reporter": "~4.1.0",
-    "karma": "~1.7.0",
-    "karma-chrome-launcher": "~2.1.1",
-    "karma-cli": "~1.0.1",
-    "karma-coverage-istanbul-reporter": "^1.2.1",
-    "karma-jasmine": "~1.1.0",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "lite-server": "^2.3.0",
-    "node-sass": "^4.5.2",
-    "node-sass-tilde-importer": "^1.0.0",
-    "node-watch": "^0.5.2",
-    "protractor": "~5.1.2",
-    "rollup": "^0.55.5",
-    "run-sequence": "^1.2.2",
-    "rxjs": "^5.5.6",
-    "systemjs": "^0.20.12",
-    "ts-node": "~3.2.0",
-    "tslint": "~5.7.0",
-    "typescript": "~2.4.2",
-    "typings": "^2.1.1",
-    "zone.js": "^0.8.20"
-  },
-  "engines": {
-    "node": ">=6.0.0"
-  }
+  "typings": "ngx-cytoscape.d.ts",
+  "version": "1.0.8"
 }
