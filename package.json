@@ -19,7 +19,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ngx-cytoscape/-/ngx-cytoscape-0.5.24.tgz",
+  "_resolved": "https://registry.npmjs.org/ngx-cytograph/-/ngx-cytograph-0.5.24.tgz",
   "_shasum": "101fe17197ad0350bf631d24d7ce1a0b16a68e07",
   "_spec": "ngx-cytograph",
   "_where": "/home/diego/WASYS/codes/q2c-dashboard",
@@ -40,13 +40,13 @@
     "@types/jquery": "^3.3.0"
   },
   "homepage": "https://github.com/diegorafaellucio/ngx-cytograph#readme",
-  "jsnext:main": "ngx-cytoscape.js",
+  "jsnext:main": "ngx-cytograph.js",
   "keywords": [
     "angular"
   ],
   "license": "MIT",
-  "main": "ngx-cytoscape.umd.js",
-  "module": "ngx-cytoscape.js",
+  "main": "ngx-cytograph.umd.js",
+  "module": "ngx-cytograph.js",
   "name": "ngx-cytograph",
   "peerDependencies": {
     "@angular/core": "^5.0.0",
@@ -60,6 +60,6 @@
     "type": "git",
     "url": "git+https://github.com/diegorafaellucio/ngx-cytograph.git"
   },
-  "typings": "ngx-cytoscape.d.ts",
+  "typings": "ngx-cytograpgh.d.ts",
   "version": "1.0.8"
 }

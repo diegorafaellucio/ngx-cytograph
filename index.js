@@ -197,7 +197,7 @@ var CytoscapeComponent = (function () {
     });
     CytoscapeComponent.decorators = [
         { type: Component, args: [{
-                    selector: 'ngx-cytoscape',
+                    selector: 'ngx-cytograph',
                     template: '<div id="cy"></div>',
                     styles: ["#cy {\n        height: 100%;\n        width: 100%;\n        position: absolute;\n        left: 0;\n        top: 0;\n    }"]
                 },] },

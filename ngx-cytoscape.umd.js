@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common')) :
 	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common'], factory) :
-	(factory((global['ngx-cytoscape'] = {}),global.core,global.common));
+	(factory((global['ngx-cytograph'] = {}),global.core,global.common));
 }(this, (function (exports,core,common) { 'use strict';
 
 /**
@@ -200,7 +200,7 @@ var CytoscapeComponent = (function () {
     });
     CytoscapeComponent.decorators = [
         { type: core.Component, args: [{
-                    selector: 'ngx-cytoscape',
+                    selector: 'ngx-cytograph',
                     template: '<div id="cy"></div>',
                     styles: ["#cy {\n        height: 100%;\n        width: 100%;\n        position: absolute;\n        left: 0;\n        top: 0;\n    }"]
                 },] },
