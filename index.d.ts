@@ -1,3 +1,3 @@
-export * from './cytoscape';
-export declare class CytoscapeModule {
+export * from './cytograph';
+export declare class CytographModule {
 }

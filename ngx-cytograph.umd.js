@@ -8,8 +8,8 @@
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var CytoscapeComponent = (function () {
-    function CytoscapeComponent(_el) {
+var CytographComponent = (function () {
+    function CytographComponent(_el) {
         this._el = _el;
         this._layout = this._layout || {
             name: 'grid',
@@ -62,7 +62,7 @@ var CytoscapeComponent = (function () {
     /**
      * @return {?}
      */
-    CytoscapeComponent.prototype.ngOnChanges = /**
+    CytographComponent.prototype.ngOnChanges = /**
      * @return {?}
      */
     function () {
@@ -71,7 +71,7 @@ var CytoscapeComponent = (function () {
     /**
      * @return {?}
      */
-    CytoscapeComponent.prototype.render = /**
+    CytographComponent.prototype.render = /**
      * @return {?}
      */
     function () {
@@ -96,7 +96,7 @@ var CytoscapeComponent = (function () {
             this.cy.maxZoom(this.zoom.max);
         }
     };
-    Object.defineProperty(CytoscapeComponent.prototype, "elements", {
+    Object.defineProperty(CytographComponent.prototype, "elements", {
         get: /**
          * @return {?}
          */
@@ -113,7 +113,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(CytoscapeComponent.prototype, "style", {
+    Object.defineProperty(CytographComponent.prototype, "style", {
         get: /**
          * @return {?}
          */
@@ -130,7 +130,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(CytoscapeComponent.prototype, "layout", {
+    Object.defineProperty(CytographComponent.prototype, "layout", {
         get: /**
          * @return {?}
          */
@@ -147,7 +147,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(CytoscapeComponent.prototype, "zoom", {
+    Object.defineProperty(CytographComponent.prototype, "zoom", {
         get: /**
          * @return {?}
          */
@@ -164,7 +164,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(CytoscapeComponent.prototype, "cy", {
+    Object.defineProperty(CytographComponent.prototype, "cy", {
         get: /**
          * @return {?}
          */
@@ -181,7 +181,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(CytoscapeComponent.prototype, "el", {
+    Object.defineProperty(CytographComponent.prototype, "el", {
         get: /**
          * @return {?}
          */
@@ -198,7 +198,7 @@ var CytoscapeComponent = (function () {
         enumerable: true,
         configurable: true
     });
-    CytoscapeComponent.decorators = [
+    CytographComponent.decorators = [
         { type: core.Component, args: [{
                     selector: 'ngx-cytograph',
                     template: '<div id="cy"></div>',
@@ -206,10 +206,10 @@ var CytoscapeComponent = (function () {
                 },] },
     ];
     /** @nocollapse */
-    CytoscapeComponent.ctorParameters = function () { return [
+    CytographComponent.ctorParameters = function () { return [
         { type: core.ElementRef, },
     ]; };
-    CytoscapeComponent.propDecorators = {
+    CytographComponent.propDecorators = {
         "elements": [{ type: core.Input },],
         "style": [{ type: core.Input },],
         "layout": [{ type: core.Input },],
@@ -217,36 +217,36 @@ var CytoscapeComponent = (function () {
         "cy": [{ type: core.Input },],
         "el": [{ type: core.Input },],
     };
-    return CytoscapeComponent;
+    return CytographComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var CytoscapeModule = (function () {
-    function CytoscapeModule() {
+var CytographModule = (function () {
+    function CytographModule() {
     }
-    CytoscapeModule.decorators = [
+    CytographModule.decorators = [
         { type: core.NgModule, args: [{
                     imports: [
                         common.CommonModule
                     ],
                     declarations: [
-                        CytoscapeComponent
+                        CytographComponent
                     ],
                     exports: [
-                        CytoscapeComponent
+                        CytographComponent
                     ]
                 },] },
     ];
     /** @nocollapse */
-    CytoscapeModule.ctorParameters = function () { return []; };
-    return CytoscapeModule;
+    CytographModule.ctorParameters = function () { return []; };
+    return CytographModule;
 }());
 
-exports.CytoscapeModule = CytoscapeModule;
-exports.CytoscapeComponent = CytoscapeComponent;
+exports.CytographModule = CytographModule;
+exports.CytographComponent = CytographComponent;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
