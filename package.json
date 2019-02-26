@@ -61,5 +61,5 @@
     "url": "git+https://github.com/diegorafaellucio/ngx-cytograph.git"
   },
   "typings": "ngx-cytograpgh.d.ts",
-  "version": "1.0.10"
+  "version": "1.0.11"
 }
